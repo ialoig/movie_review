@@ -14,8 +14,11 @@ gem 'coffee-script-source', '1.8.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 0.4.0', group: [:development, :test]
+
+
 gem 'devise', '~> 4.2', '>= 4.2.1'
+gem 'paperclip', '~> 5.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
