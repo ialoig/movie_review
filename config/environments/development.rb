@@ -42,6 +42,4 @@ Rails.application.configure do
   # necessario per devise gem
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   
-  Paperclip.options[:log] = true
-  Paperclip.options[:log_command] = true
 end
